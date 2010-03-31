@@ -1,0 +1,18 @@
++--------------------------------------------------------
+| Nova External Mailing Lists
+|
+| Developer: Dustin Lennon
+| Email: demonicpagan@gmail.com
+|
+| This application is developed under the licenses
+| of Nova and CodeIgniter.
++--------------------------------------------------------
+
+The following application will alter your Nova installation to handle external mailing lists. To install this
+application you need to perform the following steps.
+
+
+
+-------------------------------------
+Changelog - Dates are in Epoch time
+

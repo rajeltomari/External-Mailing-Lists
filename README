@@ -50,6 +50,11 @@ Line	From						To
 154		$this->email->to($to);		$this->email->to($this->settings->get_setting('external_mailing_list');
 256		$this->email->to($to);		$this->email->to($this->settings->get_setting('external_mailing_list');
 
+If you experience any issues please submit a bug report on
+http://github.com/demonicpagan/Nova-External-Mailing-Lists/issues.
+
+You can always get the latest source from http://github.com/demonicpagan/Nova-External-Mailing-Lists as well.
+
 -------------------------------------
 Changelog - Dates are in Epoch time
 

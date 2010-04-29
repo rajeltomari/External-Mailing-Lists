@@ -29,8 +29,8 @@ http://forums.anodyne-productions.com/viewtopic.php?f=62&t=2806
 	 Setting Key: external_mailing_list (this is only an example, make this whatever you want, just remember it for
 	 use in write.php)
 
-(You could create 3 different settings for the different kinds of posts if you want, just repeat steps 4 and 5 as
-needed.)
+	(You could create 3 different settings for the different kinds of posts if you want, just repeat steps 4 and 5 as
+	needed.)
 
 6. Upload application/controllers/write.php to your application/controllers folder of your Nova install replacing 
 the existing one if you haven't already modified this file. If you already have changes in this file, it's best 
@@ -44,10 +44,20 @@ Comment out every occurance of $this->email->cc($this->settings->get_setting('ex
 
 Change the following lines
 
-Line	From						To
-70 		$this->email->to($to);		$this->email->to($this->settings->get_setting('external_mailing_list');
-154		$this->email->to($to);		$this->email->to($this->settings->get_setting('external_mailing_list');
-256		$this->email->to($to);		$this->email->to($this->settings->get_setting('external_mailing_list');
+<table>
+	<tr>
+		<th>Line</th><th>From</th><th>To</th>
+	</tr>
+	<tr>
+		<td>70</td><td>$this->email->to($to);</td><td>$this->email->to($this->settings->get_setting('external_mailing_list');</td>
+	</tr>
+	<tr>
+		<td>154</td><td>$this->email->to($to);</td><td>$this->email->to($this->settings->get_setting('external_mailing_list');</td>
+	</tr>
+	<tr>
+		<td>256</td><td>$this->email->to($to);</td><td>$this->email->to($this->settings->get_setting('external_mailing_list');</td>
+	</tr>
+</table>
 
 If you experience any issues please submit a bug report on
 http://github.com/demonicpagan/Nova-External-Mailing-Lists/issues.
@@ -58,5 +68,4 @@ Changelog - Dates are in Epoch time
 -----------------------------------
 1272510152: Created a more readable README for GitHub.
 
-1270020606: Started work with external email lists. This will submit news, logs, and posts to an external mailing
-			list that you have set up in your Nova settings.
+1270020606: Started work with external email lists. This will submit news, logs, and posts to an external mailing list that you have set up in your Nova settings.

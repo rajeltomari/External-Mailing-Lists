@@ -19,7 +19,7 @@ http://forums.anodyne-productions.com/viewtopic.php?f=62&t=2806
 
 2. Goto Site Management > Settings.
 
-3. Click "Manage User-Created Settings »"
+3. Click "Manage User-Created Settings &raquo;"
 
 4. Click "Add User-Created Setting"
 

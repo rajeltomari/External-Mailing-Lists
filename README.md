@@ -49,13 +49,16 @@ Change the following lines
 		<th>Line</th><th>From</th><th>To</th>
 	</tr>
 	<tr>
-		<td>70</td><td>$this->email->to($to);</td><td>$this->email->to($this->settings->get_setting('external_mailing_list');</td>
+		<td>70</td><td>$this->email->to($to);</td>
+		<td>$this->email->to($this->settings->get_setting('external_mailing_list');</td>
 	</tr>
 	<tr>
-		<td>154</td><td>$this->email->to($to);</td><td>$this->email->to($this->settings->get_setting('external_mailing_list');</td>
+		<td>154</td><td>$this->email->to($to);</td>
+		<td>$this->email->to($this->settings->get_setting('external_mailing_list');</td>
 	</tr>
 	<tr>
-		<td>256</td><td>$this->email->to($to);</td><td>$this->email->to($this->settings->get_setting('external_mailing_list');</td>
+		<td>256</td><td>$this->email->to($to);</td>
+		<td>$this->email->to($this->settings->get_setting('external_mailing_list');</td>
 	</tr>
 </table>
 
@@ -68,8 +71,9 @@ Changelog - Dates are in Epoch time
 -----------------------------------
 1272510152:
 
-* Created a more readable README for GitHub.
+*	Created a more readable README for GitHub.
 
 1270020606:
 
-* Started work with external email lists. This will submit news, logs, and posts to an external mailing list that you have set up in your Nova settings.
+*	Started work with external email lists. This will submit news, logs, and posts to an external mailing list that 
+you have set up in your Nova settings.

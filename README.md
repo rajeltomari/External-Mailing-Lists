@@ -66,8 +66,8 @@ You can always get the latest source from <http://github.com/demonicpagan/Nova-E
 
 Changelog - Dates are in Epoch time
 -----------------------------------
-1272510152: 
+1272510152:<br />
 * Created a more readable README for GitHub.
 
-1270020606: 
+1270020606:<br />
 * Started work with external email lists. This will submit news, logs, and posts to an external mailing list that you have set up in your Nova settings.

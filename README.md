@@ -1,7 +1,7 @@
 Nova External Mailing Lists
 ===========================
 Developer: Dustin Lennon<br />
-Email: (demonicpagan@gmail.com)
+Email: <demonicpagan@gmail.com>
 
 This application is developed under the licenses of Nova and CodeIgniter.
 
@@ -13,7 +13,7 @@ application you need to perform the following steps.
 *Note: This at this moment assumes that the external mailing list you are using allows anyone to post to alleviate
 the need to add each one of your members of your group to your mailing list. However, if you opt to go this route,
 that is totally your choice and you are free to do so. You can read how this MOD started here:
-(http://forums.anodyne-productions.com/viewtopic.php?f=62&t=2806)
+<http://forums.anodyne-productions.com/viewtopic.php?f=62&t=2806>
 
 1. Log into your Nova installation.
 
@@ -60,9 +60,9 @@ Change the following lines
 </table>
 
 If you experience any issues please submit a bug report on
-(http://github.com/demonicpagan/Nova-External-Mailing-Lists/issues).
+<http://github.com/demonicpagan/Nova-External-Mailing-Lists/issues>.
 
-You can always get the latest source from (http://github.com/demonicpagan/Nova-External-Mailing-Lists) as well.
+You can always get the latest source from <http://github.com/demonicpagan/Nova-External-Mailing-Lists> as well.
 
 Changelog - Dates are in Epoch time
 -----------------------------------

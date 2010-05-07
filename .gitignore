@@ -1,3 +1,4 @@
-.zip
-.lnk
-.tar.gz
+*.zip
+*.tar.gz
+*.gz
+*.lnk

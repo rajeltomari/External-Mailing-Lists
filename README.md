@@ -69,6 +69,10 @@ You can always get the latest source from <http://github.com/demonicpagan/Nova-E
 
 Changelog - Dates are in Epoch time
 -----------------------------------
+1284469613:
+
+*	Made sure that the code for the write controller was up to par with Nova 1.1.
+
 1272510152:
 
 *	Created a more readable README for GitHub.

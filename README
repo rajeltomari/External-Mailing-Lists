@@ -58,5 +58,7 @@ You can always get the latest source from http://github.com/demonicpagan/Nova-Ex
 -------------------------------------
 Changelog - Dates are in Epoch time
 
+1284469613: Made sure that the code for the write controller was up to par with Nova 1.1.
+
 1270020606: Started work with external email lists. This will submit news, logs, and posts to an external mailing
 			list that you have set up in your Nova settings.

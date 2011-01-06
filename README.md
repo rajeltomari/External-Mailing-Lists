@@ -69,6 +69,10 @@ You can always get the latest source from <http://github.com/demonicpagan/Nova-E
 
 Changelog - Dates are in Epoch time
 -----------------------------------
+1294316085:
+
+*	Updated the _email function to version 1.2.2 of Nova
+
 1284469613:
 
 *	Made sure that the code for the write controller was up to par with Nova 1.1.

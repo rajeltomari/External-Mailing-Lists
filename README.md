@@ -50,15 +50,15 @@ Change the following lines
 	</tr>
 	<tr>
 		<td>70</td><td>$this->email->to($to);</td>
-		<td>$this->email->to($this->settings->get_setting('external_mailing_list');</td>
+		<td>$this->email->to($this->settings->get_setting('external_mailing_list'));</td>
 	</tr>
 	<tr>
 		<td>154</td><td>$this->email->to($to);</td>
-		<td>$this->email->to($this->settings->get_setting('external_mailing_list');</td>
+		<td>$this->email->to($this->settings->get_setting('external_mailing_list'));</td>
 	</tr>
 	<tr>
 		<td>256</td><td>$this->email->to($to);</td>
-		<td>$this->email->to($this->settings->get_setting('external_mailing_list');</td>
+		<td>$this->email->to($this->settings->get_setting('external_mailing_list'));</td>
 	</tr>
 </table>
 

@@ -49,15 +49,15 @@ Change the following lines
 		<th>Line</th><th>From</th><th>To</th>
 	</tr>
 	<tr>
-		<td>70</td><td>$this->email->to($to);</td>
+		<td>57</td><td>$this->email->to($to);</td>
 		<td>$this->email->to($this->settings->get_setting('external_mailing_list'));</td>
 	</tr>
 	<tr>
-		<td>154</td><td>$this->email->to($to);</td>
+		<td>139</td><td>$this->email->to($to);</td>
 		<td>$this->email->to($this->settings->get_setting('external_mailing_list'));</td>
 	</tr>
 	<tr>
-		<td>256</td><td>$this->email->to($to);</td>
+		<td>236</td><td>$this->email->to($to);</td>
 		<td>$this->email->to($this->settings->get_setting('external_mailing_list'));</td>
 	</tr>
 </table>

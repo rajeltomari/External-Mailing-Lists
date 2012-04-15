@@ -53,7 +53,7 @@ class Write extends Nova_write {
 
 				// set the parameters for sending the email
 				//$this->email->from($from_email, $from_name);
-				$this->email->from(Util::email_sender(), $from_name);
+				$this->email->from($from_email, $from_name);
 				$this->email->to($to);
 				$this->email->cc($this->settings->get_setting('external_mailing_list'));
 				$this->email->subject($this->options['email_subject'] .' '. $subject);
@@ -97,7 +97,7 @@ class Write extends Nova_write {
 				$to = implode(',', $this->user->get_emails_with_access('manage/news', 2));
 
 				// set the parameters for sending the email
-				$this->email->from(Util::email_sender(), $from_name);
+				$this->email->from($from_email, $from_name);
 				$this->email->to($to);
 				$this->email->subject($this->options['email_subject'] .' '. lang('email_subject_news_pending'));
 				$this->email->message($message);
@@ -135,7 +135,7 @@ class Write extends Nova_write {
 				$to = implode(',', $emails);
 
 				// set the parameters for sending the email
-				$this->email->from(Util::email_sender(), $from_name);
+				$this->email->from($from_email, $from_name);
 				$this->email->to($to);
 				$this->email->cc($this->settings->get_setting('external_mailing_list'));
 				$this->email->subject($this->options['email_subject'] .' '. $subject);
@@ -177,7 +177,7 @@ class Write extends Nova_write {
 				$to = implode(',', $this->user->get_emails_with_access('manage/logs', 2));
 
 				// set the parameters for sending the email
-				$this->email->from(Util::email_sender(), $from_name);
+				$this->email->from($from_email, $from_name);
 				$this->email->to($to);
 				$this->email->subject($this->options['email_subject'] .' '. lang('email_subject_log_pending'));
 				$this->email->message($message);
@@ -232,7 +232,7 @@ class Write extends Nova_write {
 				$to = implode(',', $emails);
 
 				// set the parameters for sending the email
-				$this->email->from(Util::email_sender(), $from_name);
+				$this->email->from($from_email, $from_name);
 				$this->email->to($to);
 				$this->email->cc($this->settings->get_setting('external_mailing_list'));
 				$this->email->subject($this->options['email_subject'] .' '. $subject);
@@ -295,7 +295,7 @@ class Write extends Nova_write {
 				$to = implode(',', $emails);
 
 				// set the parameters for sending the email
-				$this->email->from(Util::email_sender(), $from_name);
+				$this->email->from($from_email, $from_name);
 				$this->email->to($to);
 				$this->email->subject($this->options['email_subject'] .' '. $subject);
 				$this->email->message($message);
@@ -345,7 +345,7 @@ class Write extends Nova_write {
 				$to = implode(',', $this->user->get_emails_with_access('manage/posts', 2));
 
 				// set the parameters for sending the email
-				$this->email->from(Util::email_sender(), $from_name);
+				$this->email->from($from_email, $from_name);
 				$this->email->to($to);
 				$this->email->subject($this->options['email_subject'] .' '. lang('email_subject_post_pending'));
 				$this->email->message($message);
@@ -416,7 +416,7 @@ class Write extends Nova_write {
 				$to = implode(',', $emails);
 
 				// set the parameters for sending the email
-				$this->email->from(Util::email_sender(), $from_name);
+				$this->email->from($from_email, $from_name);
 				$this->email->to($to);
 				$this->email->subject($this->options['email_subject'] .' '. $subject);
 				$this->email->message($message);
